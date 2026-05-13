@@ -72,7 +72,15 @@ AMStore/
 
 ## Screenshots
 
-> Add screenshots here
+![screenshot](screenshots/Screenshot%202026-05-13%20154454.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154530.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154553.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154625.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154639.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154707.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154716.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154741.png)
+![screenshot](screenshots/Screenshot%202026-05-13%20154759.png)
 
 ---
 
