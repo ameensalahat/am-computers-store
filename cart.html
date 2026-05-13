@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <style>
+    body {
+      background: #ddd;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin: 0;
+    }
+    .card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      max-width: 950px;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .cart, .summary {
+      padding: 2rem;
+    }
+    .cart {
+      flex: 2;
+      background: #fff;
+    }
+    .summary {
+      flex: 1;
+      background: #f5f5f5;
+      border-left: 1px solid #ccc;
+    }
+    .title {
+      margin-bottom: 2rem;
+    }
+    .title h4 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .empty-message {
+      text-align: center;
+      margin-top: 5rem;
+      font-size: 1.2rem;
+      color: #777;
+    }
+    .summary h5 {
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+    .summary select, .summary input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #fafafa;
+    }
+    .summary .total {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      font-size: 1.1rem;
+    }
+    .btn {
+      width: 100%;
+      margin-top: 2rem;
+      padding: 0.75rem;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #333;
+    }
+    .back-to-shop {
+      margin-top: 2rem;
+      display: inline-block;
+      font-size: 0.9rem;
+      color: #333;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <div class="cart">
+    <div class="title">
+      <h4><b>Shopping Cart</b></h4>
+      <div class="text-muted">0 items</div>
+    </div>
+
+    <div class="empty-message">
+      🛒 Your cart is currently empty.<br>Start shopping to add your items!
+    </div>
+
+    <a href="index.html" class="back-to-shop">&larr; Back to shop</a>
+  </div>
+
+  <div class="summary">
+    <h5><b>Summary</b></h5>
+    <hr>
+    <div class="total">
+      <div>ITEMS 0</div>
+      <div>$0.00</div>
+    </div>
+
+    <select disabled>
+      <option>Standard Delivery - $5.00</option>
+    </select>
+
+    <input type="text" placeholder="Enter your code" disabled>
+
+    <div class="total">
+      <div>TOTAL PRICE</div>
+      <div>$0.00</div>
+    </div>
+
+    <button class="btn" disabled>CHECKOUT</button>
+  </div>
+</div>
+
+</body>
+</html>
